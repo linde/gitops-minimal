@@ -7,4 +7,4 @@ spec :
   containers :  
   - name : count  
     image : ubuntu:14.04  
-    args : ['bash', '-c', 'for ((i = 0; ; i++)); do echo "$i: $(date)"; sleep 1; done']
+    args : ['bash', '-c', 'for ((i = 0; ; i++)); do echo "$i: $(date)"; sleep 5; done']
